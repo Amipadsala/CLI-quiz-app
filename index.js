@@ -8,6 +8,7 @@ let green = chalk.bold.green
 let red = chalk.bold.red
 let cyan = chalk.bold.cyan
 let yellow = chalk.bold.yellow
+let blue = chalk.bold.blue
 let title = chalk.black.bold.bgYellow
 let inverse = chalk.inverse
 
@@ -134,7 +135,7 @@ for (q of que) {
     score += 5;
     log("Your Current Score Is :-", green(score), "\n");
   } else {
-    log(red("+2"), "Your answer Is :-", red("incorrect"), ".");
+    log(red("-2"), "Your answer Is :-", red("incorrect"), ".");
     score -= 2;
     log("Your Current Score Is :-", red(score), "\n");
   }
