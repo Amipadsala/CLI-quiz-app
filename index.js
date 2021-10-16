@@ -10,6 +10,7 @@ let cyan = chalk.bold.cyan
 let yellow = chalk.bold.yellow
 let title = chalk.black.bold.bgYellow
 let inverse = chalk.inverse
+let blue = chalk.blue
 
 var score = 0;
 var highscore = 15;
