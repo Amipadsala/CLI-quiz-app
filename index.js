@@ -136,7 +136,7 @@ for (q of que) {
     log("Your Current Score Is :-", green(score), "\n");
   } else {
     log(red("+2"), "Your answer Is :-", red("incorrect"), ".");
-    score -= 2;
+    score -= -2;
     log("Your Current Score Is :-", red(score), "\n");
   }
 }
